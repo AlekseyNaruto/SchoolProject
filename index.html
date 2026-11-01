@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--Визуал-->
+<head>
+ <meta charset="UTF-8">
+ <link rel="stylesheet" href="style.css">
+ <title>Сайт</title>
+</head>
+<!-- Основная часть-->
+<body>
+<!--Верхняя часть сайта-->
+<header>
+ <h1>Сайт для подготовки к экзаменам</h1>
+ <nav class = "tabs">
+  <button class="tab-btn active" onclick="openTab('rus')">Русский язык</button>
+  <button class="tab-btn" onclick="openTab('mat')">Математика</button>
+  <button class="tab-btn" onclick="openTab('geo')">География</button>
+  <button class="tab-btn" onclick="openTab('info')">Информатика</button>
+ </nav>
+</header>
+<!--Основная часть сайта-->
+<main>
+    <!--Вкладка 1-->
+    <section id="tab-rus" class="tab-content acrive-tab">
+      <h2>Русский язык</h2>
+      <div class="grid">
+        <!-- Карточка 1 -->
+        <figure class="card">
+          <img src="images/rus/ex1.png" alt="Задание 1">
+          <figcaption>Задание 1</figcaption>
+        </figure>
+
+        <!-- Карточка 2 -->
+        <figure class="card">
+          <img src="images/rus/ex2.png" alt="Задание 2">
+          <figcaption>Задание 2</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    
+    <!--Вкладка 2-->
+    <section id="tab-mat" class="tab-content">
+      <h2>Математика</h2>
+      <div class="grid">
+        <!-- Карточка 1 -->
+        <figure class="card">
+          <img src="images/mat/ex1.png" alt="Задание 1">
+          <figcaption>Задание 1</figcaption>
+        </figure>
+
+        <!-- Карточка 2 -->
+        <figure class="card">
+          <img src="images/mat/ex2.png" alt="Задание 2">
+          <figcaption>Задание 2</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!--Вкладка 3-->
+    <section id="tab-geo" class="tab-content">
+      <h2>География</h2>
+      <div class="grid">
+        <!-- Карточка 1 -->
+        <figure class="card">
+          <img src="images/geo/ex1.png" alt="Задание 1">
+          <figcaption>Задание 1</figcaption>
+        </figure>
+
+        <!-- Карточка 2 -->
+        <figure class="card">
+          <img src="images/geo/ex2.png" alt="Задание 2">
+          <figcaption>Задание 2</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!--Вкладка 4-->
+    <section id="tab-info" class="tab-content">
+      <h2>Математика</h2>
+      <div class="grid">
+        <!-- Карточка 1 -->
+        <figure class="card">
+          <img src="images/info/ex1.png" alt="Задание 1">
+          <figcaption>Задание 1</figcaption>
+        </figure>
+
+        <!-- Карточка 2 -->
+        <figure class="card">
+          <img src="images/info/ex2.png" alt="Задание 2">
+          <figcaption>Задание 2</figcaption>
+        </figure>
+      </div>
+    </section>
+</main>
+<footer>
+ <p>Школьный проект 2026-2027</p>
+</footer>
+<script src="app.js"></script>
+</body>
